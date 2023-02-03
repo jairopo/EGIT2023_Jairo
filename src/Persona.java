@@ -15,4 +15,8 @@ public class Persona {
     System.out.println(edad++);
   }
   
+  public void datosPersona() {
+    System.out.println(nombre + " " + apellidos + " tiene " + edad + " años.");
+  }
+  
 }
